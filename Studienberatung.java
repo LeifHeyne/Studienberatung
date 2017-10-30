@@ -12,6 +12,17 @@ public class Studienberatung{
 			 ans = s.next();
 			if(ans.equalsIgnoreCase("j")){
 				System.out.println("Hast du eine Berufsausbildung?");
+
+				ans = s.next();
+				if(ans.equalsIgnoreCase("n")){
+					System.out.println("Besser noch Studieren");
+					
+				}
+				else if ( ans.equalsIgnoreCase("j")){
+					System.out.println("Du kannst ja später noch Studieren");
+					
+				}
+
 			}
 			else if(ans.equalsIgnoreCase("n")){
 				System.out.println("Nicht Studieren");
