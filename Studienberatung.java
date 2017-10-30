@@ -7,7 +7,7 @@ public class Studienberatung{
 		String ans = s.next();
 		
 		if(ans.equalsIgnoreCase("n")){
-			//Code für kein Abitur
+			System.out.println("Hast du Fachabitur?");
 		}
 		else{
 			
